@@ -1,0 +1,40 @@
+; You have to restart if you change the file.
+; 
+; How it works:
+;   [Folder]
+;   Main = ../
+;   Data = Data/
+;   
+;   [Files]
+;   Answer = [Main][Data]Answer.txt
+; 
+; Means that the File Answer is in '../Data/Answer.txt'.
+; You can create your own folders if you want:
+;   Example: [Folder]
+;            Log = Log/
+;            
+;            [Files]
+;            Log = [Main][Log]Log_[i].txt
+; 
+
+[Folder]
+Main = 
+Data = Data/
+Logs = Logs/
+Lua = Lua/
+Plugins = Plugins/
+Worlds = Worlds/
+
+[Files]
+Files = Files.txt
+Log = [Main][Logs]Log_[i].txt
+
+System = [Main][Data]System.txt
+Item = [Main][Data]Item.txt
+Block = [Main][Data]Block.txt
+Entity_Type = [Main][Data]Entity_Type.txt
+Worlds = [Main][Data]Worlds.txt
+Command = [Main][Data]Command.txt
+Build_Mode = [Main][Data]Build_Mode.txt
+Players = [Main][Data]Players.sqlite
+Rank = [Main][Data]Rank.txt

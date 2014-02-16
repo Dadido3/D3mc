@@ -1,0 +1,36 @@
+﻿
+[1]
+ID = 1
+Create = 0
+Delete = 0
+Name = Test
+Directory = Worlds/Test/
+Spawn_Priority = 0
+[2]
+ID = 2
+Create = 0
+Delete = 0
+Name = Hub
+Directory = Worlds/Hub/
+Spawn_Priority = 100
+[3]
+ID = 3
+Create = 0
+Delete = 0
+Name = Construct
+Directory = Worlds/Construct/
+Spawn_Priority = 10
+[4]
+ID = 4
+Create = 0
+Delete = 0
+Name = Castle
+Directory = Worlds/Castle/
+Spawn_Priority = 0
+[5]
+ID = 5
+Create = 0
+Delete = 0
+Name = Life
+Directory = Worlds/Life/
+Spawn_Priority = 0

@@ -1,0 +1,19 @@
+﻿
+[General]
+Version = 1000
+UID = U8U4lmB4h52BVL1WQDV616T0gizLEBii
+Name = Hub
+[Spawn]
+X = 7.9648260237453643
+Y = 8.0208639854021335
+Z = 20.154686981909332
+Yaw = 141.752899
+Pitch = 29.999996
+Roll = 0.000000
+[World]
+Time_Mode = 0
+Time_Factor = 0.000000
+Time = 0.000000
+Limit_Radius = 2
+Generator = Lua:Mapfill_standart
+Seed = 2010259594

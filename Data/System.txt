@@ -1,0 +1,5 @@
+[Server]
+Name = D3-Testserver
+Ping_Message = D3-Testserver, hioh
+MOTD = Test123
+Max_Players = 1337

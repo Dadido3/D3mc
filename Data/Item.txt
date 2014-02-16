@@ -1,0 +1,2485 @@
+
+[0]
+Name = Air
+Name_Short = air
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 46
+
+[1]
+Name = Stone
+Name_Short = stn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 1
+Stackable_Amount = 64
+On_Client = 1
+
+[2]
+Name = Grass
+Name_Short = grs
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 2
+Stackable_Amount = 64
+On_Client = 2
+
+[3]
+Name = Dirt
+Name_Short = drt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 3
+Stackable_Amount = 64
+On_Client = 3
+
+[4]
+Name = Cobblestone
+Name_Short = cbl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 4
+Stackable_Amount = 64
+On_Client = 4
+
+[5]
+Name = Wood
+Name_Short = wod
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 5
+Stackable_Amount = 64
+On_Client = 5
+
+[6]
+Name = Sapling
+Name_Short = spl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 6
+Stackable_Amount = 64
+On_Client = 6
+
+[7]
+Name = Bedrock
+Name_Short = brk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 7
+Stackable_Amount = 64
+On_Client = 7
+
+[8]
+Name = Water
+Name_Short = wtr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 8
+Stackable_Amount = 64
+On_Client = 8
+
+[9]
+Name = Stationary Water
+Name_Short = stwtr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 9
+Stackable_Amount = 64
+On_Client = 9
+
+[10]
+Name = Lava
+Name_Short = laa
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 10
+Stackable_Amount = 64
+On_Client = 10
+
+[11]
+Name = Stationary Lava
+Name_Short = stlaa
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 11
+Stackable_Amount = 64
+On_Client = 11
+
+[12]
+Name = Sand
+Name_Short = snd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 12
+Stackable_Amount = 64
+On_Client = 12
+
+[13]
+Name = Gravel
+Name_Short = grv
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 13
+Stackable_Amount = 64
+On_Client = 13
+
+[14]
+Name = Gold ore
+Name_Short = gldore
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 14
+Stackable_Amount = 64
+On_Client = 14
+
+[15]
+Name = Iron ore
+Name_Short = irnore
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 15
+Stackable_Amount = 64
+On_Client = 15
+
+[16]
+Name = Coal ore
+Name_Short = colore
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 16
+Stackable_Amount = 64
+On_Client = 16
+
+[17]
+Name = Tree
+Name_Short = tre
+Dig_Event = 
+Place_Event = Lua:Item_Place_Tree
+Corresponding_Block = 17
+Stackable_Amount = 64
+On_Client = 17
+
+[18]
+Name = Leaves
+Name_Short = lvs
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 18
+Stackable_Amount = 64
+On_Client = 18
+
+[19]
+Name = Sponge
+Name_Short = spg
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 19
+Stackable_Amount = 64
+On_Client = 19
+
+[20]
+Name = Glass
+Name_Short = gls
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 20
+Stackable_Amount = 64
+On_Client = 20
+
+[21]
+Name = Lapis Lazuli Ore
+Name_Short = laplaore
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 21
+Stackable_Amount = 64
+On_Client = 21
+
+[22]
+Name = Lapis Lazuli Block
+Name_Short = laplablk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 22
+Stackable_Amount = 64
+On_Client = 22
+
+[23]
+Name = Dispenser
+Name_Short = dpr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 23
+Stackable_Amount = 64
+On_Client = 23
+
+[24]
+Name = Sandstone
+Name_Short = sstn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 24
+Stackable_Amount = 64
+On_Client = 24
+
+[25]
+Name = Note Block
+Name_Short = ntblk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 25
+Stackable_Amount = 64
+On_Client = 25
+
+[26]
+Name = Bed
+Name_Short = bed
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 26
+Stackable_Amount = 64
+On_Client = 26
+
+[27]
+Name = Powered Rail
+Name_Short = prail
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 27
+Stackable_Amount = 64
+On_Client = 27
+
+[28]
+Name = Detector Rail
+Name_Short = drail
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 28
+Stackable_Amount = 64
+On_Client = 28
+
+[29]
+Name = Sticky Piston
+Name_Short = stkpstn
+Dig_Event = 
+Place_Event = Lua:Item_Place_Redstone_Piston
+Corresponding_Block = 29
+Stackable_Amount = 64
+On_Client = 29
+
+[30]
+Name = Web
+Name_Short = web
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 30
+Stackable_Amount = 64
+On_Client = 30
+
+[31]
+Name = Tall Grass
+Name_Short = tlgrs
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 31
+Stackable_Amount = 64
+On_Client = 31
+
+[32]
+Name = Dead Bush
+Name_Short = dbsh
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 32
+Stackable_Amount = 64
+On_Client = 32
+
+[33]
+Name = Piston
+Name_Short = pstn
+Dig_Event = 
+Place_Event = Lua:Item_Place_Redstone_Piston
+Corresponding_Block = 33
+Stackable_Amount = 64
+On_Client = 33
+
+[34]
+Name = Piston Extension
+Name_Short = pstnext
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 34
+Stackable_Amount = 64
+On_Client = 34
+
+[35]
+Name = Wool
+Name_Short = wol
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 35
+Stackable_Amount = 64
+On_Client = 35
+
+[37]
+Name = Yellow Flower
+Name_Short = yflw
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 37
+Stackable_Amount = 64
+On_Client = 37
+
+[38]
+Name = Red Rose
+Name_Short = rse
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 38
+Stackable_Amount = 64
+On_Client = 38
+
+[39]
+Name = Brown Mushroom
+Name_Short = bmshr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 39
+Stackable_Amount = 64
+On_Client = 39
+
+[40]
+Name = Red Mushroom
+Name_Short = rmshr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 40
+Stackable_Amount = 64
+On_Client = 40
+
+[41]
+Name = Gold Block
+Name_Short = gldblk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 41
+Stackable_Amount = 64
+On_Client = 41
+
+[42]
+Name = Iron Block
+Name_Short = irnblk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 42
+Stackable_Amount = 64
+On_Client = 42
+
+[43]
+Name = Double Stone Slab
+Name_Short = dblstnslb
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 43
+Stackable_Amount = 64
+On_Client = 43
+
+[44]
+Name = Stone Slab
+Name_Short = dblslb
+Dig_Event = 
+Place_Event = Lua:Item_Place_Slab
+Corresponding_Block = 44
+Stackable_Amount = 64
+On_Client = 44
+
+[45]
+Name = Brick Block
+Name_Short = brk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 45
+Stackable_Amount = 64
+On_Client = 45
+
+[46]
+Name = TNT
+Name_Short = tnt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 46
+Stackable_Amount = 64
+On_Client = 46
+
+[47]
+Name = Bookshelf
+Name_Short = bokslf
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 47
+Stackable_Amount = 64
+On_Client = 47
+
+[48]
+Name = Moss Stone
+Name_Short = mosstn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 48
+Stackable_Amount = 64
+On_Client = 48
+
+[49]
+Name = Obsidian
+Name_Short = obn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 49
+Stackable_Amount = 64
+On_Client = 49
+
+[50]
+Name = Torch
+Name_Short = trc
+Dig_Event = 
+Place_Event = Lua:Item_Place_Torch
+Corresponding_Block = 50
+Stackable_Amount = 64
+On_Client = 50
+
+[51]
+Name = Fire
+Name_Short = fir
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 51
+Stackable_Amount = 64
+On_Client = 51
+
+[52]
+Name = Monster Spawner
+Name_Short = monspw
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 52
+Stackable_Amount = 64
+On_Client = 52
+
+[53]
+Name = Wooden Stairs
+Name_Short = wdnstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 53
+Stackable_Amount = 64
+On_Client = 53
+
+[54]
+Name = Chest
+Name_Short = cst
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 54
+Stackable_Amount = 64
+On_Client = 54
+
+[56]
+Name = Diamond Ore
+Name_Short = dmdore
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 56
+Stackable_Amount = 64
+On_Client = 56
+
+[57]
+Name = Diamond Block
+Name_Short = dndblk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 57
+Stackable_Amount = 64
+On_Client = 57
+
+[58]
+Name = Workbench
+Name_Short = wbnc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 58
+Stackable_Amount = 64
+On_Client = 58
+
+[59]
+Name = Crops
+Name_Short = crp
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 59
+Stackable_Amount = 64
+On_Client = 59
+
+[60]
+Name = Farmland
+Name_Short = fmlnd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 60
+Stackable_Amount = 64
+On_Client = 60
+
+[61]
+Name = Furnace
+Name_Short = fnc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 61
+Stackable_Amount = 64
+On_Client = 61
+
+[62]
+Name = Burning Furnace
+Name_Short = bngfnc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 62
+Stackable_Amount = 64
+On_Client = 62
+
+[63]
+Name = Sign Post
+Name_Short = sgn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 63
+Stackable_Amount = 64
+On_Client = 63
+
+[65]
+Name = Ladder
+Name_Short = ldr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 65
+Stackable_Amount = 64
+On_Client = 65
+
+[66]
+Name = Minecart Tracks
+Name_Short = mcttrk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 66
+Stackable_Amount = 64
+On_Client = 66
+
+[67]
+Name = Cobblestone Stairs
+Name_Short = cblstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 67
+Stackable_Amount = 64
+On_Client = 67
+
+[68]
+Name = Wall Sign
+Name_Short = walsgn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 68
+Stackable_Amount = 64
+On_Client = 68
+
+[69]
+Name = Lever
+Name_Short = lvr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Redstone_Lever
+Corresponding_Block = 69
+Stackable_Amount = 64
+On_Client = 69
+
+[70]
+Name = Stone Pressure Plate
+Name_Short = stnprsplt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 70
+Stackable_Amount = 64
+On_Client = 70
+
+[72]
+Name = Wooden Pressure Plate
+Name_Short = wdnprsplt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 72
+Stackable_Amount = 64
+On_Client = 72
+
+[73]
+Name = Redstone Ore
+Name_Short = rdstnore
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 73
+Stackable_Amount = 64
+On_Client = 73
+
+[74]
+Name = Glowing Redstone Ore
+Name_Short = glwrdstnore
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 74
+Stackable_Amount = 64
+On_Client = 74
+
+[75]
+Name = Redstone Torch Off
+Name_Short = rdstntrcoff
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 75
+Stackable_Amount = 64
+On_Client = 75
+
+[76]
+Name = Redstone Torch On
+Name_Short = rdstntrcon
+Dig_Event = 
+Place_Event = Lua:Item_Place_Redstone_Torch
+Corresponding_Block = 76
+Stackable_Amount = 64
+On_Client = 76
+
+[77]
+Name = Stone Button
+Name_Short = stnbtn
+Dig_Event = 
+Place_Event = Lua:Item_Place_Redstone_Button
+Corresponding_Block = 77
+Stackable_Amount = 64
+On_Client = 77
+
+[78]
+Name = Snow
+Name_Short = snw
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 78
+Stackable_Amount = 64
+On_Client = 78
+
+[79]
+Name = Ice
+Name_Short = ice
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 79
+Stackable_Amount = 64
+On_Client = 79
+
+[80]
+Name = Snow Block
+Name_Short = snwblk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 80
+Stackable_Amount = 64
+On_Client = 80
+
+[81]
+Name = Cactus
+Name_Short = cts
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 81
+Stackable_Amount = 64
+On_Client = 81
+
+[82]
+Name = Clay
+Name_Short = cly
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 82
+Stackable_Amount = 64
+On_Client = 82
+
+[83]
+Name = Sugar Cane
+Name_Short = sgrcne
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 83
+Stackable_Amount = 64
+On_Client = 83
+
+[84]
+Name = Jukebox
+Name_Short = jbx
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 84
+Stackable_Amount = 64
+On_Client = 84
+
+[85]
+Name = Fence
+Name_Short = fnc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 85
+Stackable_Amount = 64
+On_Client = 85
+
+[86]
+Name = Pumpkin
+Name_Short = pmk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 86
+Stackable_Amount = 64
+On_Client = 86
+
+[87]
+Name = Netherrack
+Name_Short = ntr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 87
+Stackable_Amount = 64
+On_Client = 87
+
+[88]
+Name = Soul Sand
+Name_Short = ssnd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 88
+Stackable_Amount = 64
+On_Client = 88
+
+[89]
+Name = Glowstone
+Name_Short = glwstn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 89
+Stackable_Amount = 64
+On_Client = 89
+
+[90]
+Name = Portal
+Name_Short = ptl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 90
+Stackable_Amount = 64
+On_Client = 90
+
+[91]
+Name = Jack-O-Lantern
+Name_Short = jol
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 91
+Stackable_Amount = 64
+On_Client = 91
+
+[92]
+Name = Cake Block
+Name_Short = cke
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 92
+Stackable_Amount = 64
+On_Client = 92
+
+[95]
+Name = Locked Chest
+Name_Short = lckcst
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 95
+Stackable_Amount = 64
+On_Client = 95
+
+[96]
+Name = Trapdoor
+Name_Short = trpdor
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 96
+Stackable_Amount = 64
+On_Client = 96
+
+[97]
+Name = Monster Egg
+Name_Short = monegg
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 97
+Stackable_Amount = 64
+On_Client = 97
+
+[98]
+Name = Stone Bricks
+Name_Short = stnbrk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 98
+Stackable_Amount = 64
+On_Client = 98
+
+[99]
+Name = Huge Brown Mushroom
+Name_Short = hbmshr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 99
+Stackable_Amount = 64
+On_Client = 99
+
+[100]
+Name = Huge Red Mushroom
+Name_Short = hrmshr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 100
+Stackable_Amount = 64
+On_Client = 100
+
+[101]
+Name = Iron Bars
+Name_Short = irnbrs
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 101
+Stackable_Amount = 64
+On_Client = 101
+
+[102]
+Name = Glass Pane
+Name_Short = glspne
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 102
+Stackable_Amount = 64
+On_Client = 102
+
+[103]
+Name = Melon
+Name_Short = mln
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 103
+Stackable_Amount = 64
+On_Client = 103
+
+[104]
+Name = Pumpkin Stem
+Name_Short = pmpkstm
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 104
+Stackable_Amount = 64
+On_Client = 104
+
+[105]
+Name = Melon Stem
+Name_Short = mlnstm
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 105
+Stackable_Amount = 64
+On_Client = 105
+
+[106]
+Name = Vines
+Name_Short = vns
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 106
+Stackable_Amount = 64
+On_Client = 106
+
+[107]
+Name = Fence Gate
+Name_Short = fncgat
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 107
+Stackable_Amount = 64
+On_Client = 107
+
+[108]
+Name = Brick Stairs
+Name_Short = brkstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 108
+Stackable_Amount = 64
+On_Client = 108
+
+[109]
+Name = Stone Brick Stairs
+Name_Short = stnbrkstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 109
+Stackable_Amount = 64
+On_Client = 109
+
+[110]
+Name = Mycelium
+Name_Short = myc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 110
+Stackable_Amount = 64
+On_Client = 110
+
+[111]
+Name = Lily Pad
+Name_Short = lpad
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 111
+Stackable_Amount = 64
+On_Client = 111
+
+[112]
+Name = Nether Brick
+Name_Short = ntbrk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 112
+Stackable_Amount = 64
+On_Client = 112
+
+[113]
+Name = Nether Brick Fence
+Name_Short = ntbrkfnc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 113
+Stackable_Amount = 64
+On_Client = 113
+
+[114]
+Name = Nether Brick Stairs
+Name_Short = ntbrkstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 114
+Stackable_Amount = 64
+On_Client = 114
+
+[115]
+Name = Nether Wart
+Name_Short = ntwrt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 115
+Stackable_Amount = 64
+On_Client = 115
+
+[116]
+Name = Enchantment Table
+Name_Short = enchtbl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 116
+Stackable_Amount = 64
+On_Client = 116
+
+[117]
+Name = Brewing Stand
+Name_Short = brwstd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 117
+Stackable_Amount = 64
+On_Client = 117
+
+[118]
+Name = Cauldron
+Name_Short = cldr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 118
+Stackable_Amount = 64
+On_Client = 118
+
+[119]
+Name = End Portal
+Name_Short = eport
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 119
+Stackable_Amount = 64
+On_Client = 119
+
+[120]
+Name = End Portal Frame
+Name_Short = eportfrm
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 120
+Stackable_Amount = 64
+On_Client = 120
+
+[121]
+Name = End Stone
+Name_Short = estn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 121
+Stackable_Amount = 64
+On_Client = 121
+
+[122]
+Name = Dragon Egg
+Name_Short = drgegg
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 122
+Stackable_Amount = 64
+On_Client = 122
+
+[123]
+Name = Redstone Lamp off
+Name_Short = rdstnlmpoff
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 123
+Stackable_Amount = 64
+On_Client = 123
+
+[124]
+Name = Redstone Lamp on
+Name_Short = rdstnlmpon
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 124
+Stackable_Amount = 64
+On_Client = 124
+
+[125]
+Name = Wooden Double Slab
+Name_Short = wdndblslb
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 125
+Stackable_Amount = 64
+On_Client = 125
+
+[126]
+Name = Wooden Slab
+Name_Short = wdnslb
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 126
+Stackable_Amount = 64
+On_Client = 126
+
+[127]
+Name = Cocoa Plant
+Name_Short = cocplt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 127
+Stackable_Amount = 64
+On_Client = 127
+
+[128]
+Name = Sandstone Stairs
+Name_Short = sndstnstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 128
+Stackable_Amount = 64
+On_Client = 128
+
+[129]
+Name = Emerald Ore
+Name_Short = emrore
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 129
+Stackable_Amount = 64
+On_Client = 129
+
+[130]
+Name = Ender Chest
+Name_Short = ecst
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 130
+Stackable_Amount = 64
+On_Client = 130
+
+[131]
+Name = Tripwire Hook
+Name_Short = trpwrhk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 131
+Stackable_Amount = 64
+On_Client = 131
+
+[132]
+Name = Tripwire
+Name_Short = trpwr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 132
+Stackable_Amount = 64
+On_Client = 132
+
+[133]
+Name = Block of Emerald
+Name_Short = blkemr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 133
+Stackable_Amount = 64
+On_Client = 133
+
+[134]
+Name = Spruce Wood Stairs
+Name_Short = sprwdstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 134
+Stackable_Amount = 64
+On_Client = 134
+
+[135]
+Name = Birch Wood Stairs
+Name_Short = brcwdstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 135
+Stackable_Amount = 64
+On_Client = 135
+
+[136]
+Name = Jungle Wood Stairs
+Name_Short = jngwdstr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Stairs
+Corresponding_Block = 136
+Stackable_Amount = 64
+On_Client = 136
+
+[256]
+Name = Iron Shovel
+Name_Short = ishvl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 256
+
+[257]
+Name = Iron Pickaxe
+Name_Short = ipick
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 257
+
+[258]
+Name = Iron Axe
+Name_Short = irnaxe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 258
+
+[259]
+Name = Flint and Steel
+Name_Short = fas
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 259
+
+[260]
+Name = Red Apple
+Name_Short = rdapl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 260
+
+[261]
+Name = Bow
+Name_Short = bow
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 261
+
+[262]
+Name = Arrow
+Name_Short = arw
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 262
+
+[263]
+Name = Coal
+Name_Short = col
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 263
+
+[264]
+Name = Diamond
+Name_Short = dnmd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 264
+
+[265]
+Name = Iron Ingot
+Name_Short = iingt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 265
+
+[266]
+Name = Gold Ingot
+Name_Short = gingt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 266
+
+[267]
+Name = Iron Sword
+Name_Short = iswrd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 267
+
+[268]
+Name = Wooden Sword
+Name_Short = wswrd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 268
+
+[269]
+Name = Wooden Shovel
+Name_Short = wsvl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 269
+
+[270]
+Name = Wooden Pickaxe
+Name_Short = wpick
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 270
+
+[271]
+Name = Wooden Axe
+Name_Short = waxe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 271
+
+[272]
+Name = Stone Sword
+Name_Short = sswrd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 272
+
+[273]
+Name = Stone Shovel
+Name_Short = ssvl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 273
+
+[274]
+Name = Stone Pickaxe
+Name_Short = spick
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 274
+
+[275]
+Name = Stone Axe
+Name_Short = saxe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 275
+
+[276]
+Name = Diamond Sword
+Name_Short = dswrd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 276
+
+[277]
+Name = Diamond Shovel
+Name_Short = dsvl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 277
+
+[278]
+Name = Diamond Pickaxe
+Name_Short = dpick
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 278
+
+[279]
+Name = Diamond Axe
+Name_Short = daxe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 279
+
+[280]
+Name = Stick
+Name_Short = stk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 280
+
+[281]
+Name = Bowl
+Name_Short = bwl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 281
+
+[282]
+Name = Mushroom Soup
+Name_Short = mshmsup
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 282
+
+[283]
+Name = Golden Sword
+Name_Short = gswrd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 283
+
+[284]
+Name = Golden Shovel
+Name_Short = gsvl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 284
+
+[285]
+Name = Golden Pickaxe
+Name_Short = gpick
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 285
+
+[286]
+Name = Golden Axe
+Name_Short = gaxe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 0
+Stackable_Amount = 64
+On_Client = 286
+
+[287]
+Name = String
+Name_Short = str
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 287
+
+[288]
+Name = Feather
+Name_Short = fthr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 288
+
+[289]
+Name = Gunpowder
+Name_Short = gpwdr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 289
+
+[290]
+Name = Wooden Hoe
+Name_Short = whoe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 290
+
+[291]
+Name = Stone Hoe
+Name_Short = shoe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 291
+
+[292]
+Name = Iron Hoe
+Name_Short = ihoe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 292
+
+[293]
+Name = Diamond Hoe
+Name_Short = dhoe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 293
+
+[294]
+Name = Gold Hoe
+Name_Short = ghoe
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 294
+
+[295]
+Name = Seeds
+Name_Short = sds
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 295
+
+[296]
+Name = Wheat
+Name_Short = wht
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 296
+
+[297]
+Name = Bread
+Name_Short = brd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 297
+
+[298]
+Name = Leather Cap
+Name_Short = lcap
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 298
+
+[299]
+Name = Leather Tunic
+Name_Short = ltnic
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 299
+
+[300]
+Name = Leather Pants
+Name_Short = lpnts
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 300
+
+[301]
+Name = Leather Boots
+Name_Short = lbts
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 301
+
+[302]
+Name = Chain Helmet
+Name_Short = chlmt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 302
+
+[303]
+Name = Chain Chestplate
+Name_Short = cchstplt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 303
+
+[304]
+Name = Chain Leggings
+Name_Short = clgings
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 304
+
+[305]
+Name = Chain Boots
+Name_Short = cbts
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 305
+
+[306]
+Name = Iron Helmet
+Name_Short = ihlmt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 306
+
+[307]
+Name = Iron Chestplate
+Name_Short = ichstplt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 307
+
+[308]
+Name = Iron Leggings
+Name_Short = ilgings
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 308
+
+[309]
+Name = Iron Boots
+Name_Short = ibts
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 309
+
+[310]
+Name = Diamond Helmet
+Name_Short = dhlmt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 310
+
+[311]
+Name = Diamond Chestplate
+Name_Short = dchstplt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 311
+
+[312]
+Name = Diamond Leggings
+Name_Short = dlgings
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 312
+
+[313]
+Name = Diamond Boots
+Name_Short = dbts
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 313
+
+[314]
+Name = Golden Helmet
+Name_Short = ghlmt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 314
+
+[315]
+Name = Golden Chestplate
+Name_Short = gchstplt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 315
+
+[316]
+Name = Golden Leggings
+Name_Short = glgings
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 316
+
+[317]
+Name = Golden Boots
+Name_Short = gbts
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 317
+
+[318]
+Name = Flint
+Name_Short = flnt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 318
+
+[319]
+Name = Raw Porkchop
+Name_Short = rprkchp
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 319
+
+[320]
+Name = Cooked Porkchop
+Name_Short = cprkchp
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 320
+
+[321]
+Name = Paintings
+Name_Short = pnts
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 321
+
+[322]
+Name = Golden Apple
+Name_Short = gapl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 322
+
+[323]
+Name = Sign
+Name_Short = sgn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 323
+
+[324]
+Name = Wooden Door
+Name_Short = wdndor
+Dig_Event = 
+Place_Event = Lua:Item_Place_Door
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 324
+
+[325]
+Name = Bucket
+Name_Short = bkt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 325
+
+[326]
+Name = Water Bucket
+Name_Short = wtrbkt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 326
+
+[327]
+Name = Lava Bucket
+Name_Short = lvbkt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 327
+
+[328]
+Name = Minecart
+Name_Short = mncrt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 328
+
+[329]
+Name = Saddle
+Name_Short = sdl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 329
+
+[330]
+Name = Iron Door
+Name_Short = irndor
+Dig_Event = 
+Place_Event = Lua:Item_Place_Door
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 330
+
+[331]
+Name = Redstone Dust
+Name_Short = rdstndst
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 55
+Stackable_Amount = 64
+On_Client = 331
+
+[332]
+Name = Snowball
+Name_Short = snwbl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 332
+
+[333]
+Name = Boat
+Name_Short = bt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 333
+
+[334]
+Name = Leather
+Name_Short = lthr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 334
+
+[335]
+Name = Milk
+Name_Short = mlk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 335
+
+[336]
+Name = Clay Brick
+Name_Short = clybrk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 336
+
+[337]
+Name = Clay
+Name_Short = cly
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 337
+
+[338]
+Name = Sugar Cane
+Name_Short = sgrcne
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 338
+
+[339]
+Name = Paper
+Name_Short = papr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 339
+
+[340]
+Name = Book
+Name_Short = bok
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 340
+
+[341]
+Name = Slimeball
+Name_Short = slmbl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 341
+
+[342]
+Name = Minecart with Chest
+Name_Short = mncrtchst
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 342
+
+[343]
+Name = Minecart wtih Furnace
+Name_Short = mncrtfrnce
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 343
+
+[344]
+Name = Chicken Egg
+Name_Short = chknegg
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 344
+
+[345]
+Name = Compass
+Name_Short = cmps
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 345
+
+[346]
+Name = Fishing Rod
+Name_Short = fshngrd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 346
+
+[347]
+Name = Clock
+Name_Short = clk
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 347
+
+[348]
+Name = Glowstone Dust
+Name_Short = glwstndst
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 348
+
+[349]
+Name = Raw Fish
+Name_Short = rfsh
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 349
+
+[350]
+Name = Cooked Fish
+Name_Short = cfsh
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 350
+
+[351]
+Name = Dye
+Name_Short = dye
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 351
+
+[352]
+Name = Bone
+Name_Short = bne
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 352
+
+[353]
+Name = Sugar
+Name_Short = sgr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 353
+
+[354]
+Name = Cake
+Name_Short = cke
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 354
+
+[355]
+Name = Bed
+Name_Short = bed
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 355
+
+[356]
+Name = Redstone Repeater
+Name_Short = rdstnrptr
+Dig_Event = 
+Place_Event = Lua:Item_Place_Redstone_Repeater
+Corresponding_Block = 93
+Stackable_Amount = 64
+On_Client = 356
+
+[357]
+Name = Cookie
+Name_Short = cke
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 357
+
+[358]
+Name = Map
+Name_Short = map
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 358
+
+[359]
+Name = Shears
+Name_Short = shrs
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 359
+
+[360]
+Name = Melon Slice
+Name_Short = mlnslc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 360
+
+[361]
+Name = Pumpkin Seeds
+Name_Short = pmpksds
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 361
+
+[362]
+Name = Melon Seeds
+Name_Short = mlnsds
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 362
+
+[363]
+Name = Raw Beef
+Name_Short = rbf
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 363
+
+[364]
+Name = Steak
+Name_Short = stak
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 364
+
+[365]
+Name = Raw Chicken
+Name_Short = rchkn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 365
+
+[366]
+Name = Cooked Chicken
+Name_Short = cchkn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 366
+
+[367]
+Name = Rotten Flesh
+Name_Short = rtnflsh
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 367
+
+[368]
+Name = Ender Pearl
+Name_Short = endprl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 368
+
+[369]
+Name = Blaze Rod
+Name_Short = blzrd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 369
+
+[370]
+Name = Ghast Tear
+Name_Short = ghsttr
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 370
+
+[371]
+Name = Gold Nugget
+Name_Short = gldngt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 371
+
+[372]
+Name = Nether Wart
+Name_Short = ntwrt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 372
+
+[373]
+Name = Potion
+Name_Short = ptn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 373
+
+[374]
+Name = Glass Bottle
+Name_Short = glsbtl
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 374
+
+[375]
+Name = Spider Eye
+Name_Short = spdeye
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 375
+
+[376]
+Name = Fermented Spider Eye
+Name_Short = fmntdspdeye
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 376
+
+[377]
+Name = Blaze Powder
+Name_Short = blzpwd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 377
+
+[378]
+Name = Magma Cream
+Name_Short = mgmcrm
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 378
+
+[379]
+Name = Brewing Stand
+Name_Short = brwstd
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 379
+
+[380]
+Name = Cauldron
+Name_Short = cldrn
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 380
+
+[381]
+Name = Eye of Ender
+Name_Short = endeye
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 381
+
+[382]
+Name = Glistering Melon
+Name_Short = glstrmln
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 382
+
+[383]
+Name = Spawn Egg
+Name_Short = spwnegg
+Dig_Event = 
+Place_Event = Lua:Item_Place_Spawn_Egg
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 383
+
+[384]
+Name = Bottle of Enchanting
+Name_Short = btlofenchnt
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 384
+
+[385]
+Name = Fire Charge
+Name_Short = firchrg
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 385
+
+[386]
+Name = Book and Quill
+Name_Short = bokaql
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 386
+
+[387]
+Name = Written Book
+Name_Short = wrtnbok
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 387
+
+[388]
+Name = Emerald
+Name_Short = emrld
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 388
+
+[2256]
+Name = 13 Disc
+Name_Short = 13dsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2256
+
+[2257]
+Name = Cat Disc
+Name_Short = catdsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2257
+
+[2258]
+Name = blocks Disc
+Name_Short = blocksdsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2258
+
+[2259]
+Name = chirp Disc
+Name_Short = chirpdsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2259
+
+[2260]
+Name = far Disc
+Name_Short = fardsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2260
+
+[2261]
+Name = mall Disc
+Name_Short = malldsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2261
+
+[2262]
+Name = mellohi Disc
+Name_Short = mellohidsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2262
+
+[2263]
+Name = stal Disc
+Name_Short = staldsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2263
+
+[2264]
+Name = strad Disc
+Name_Short = straddsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2264
+
+[2265]
+Name = ward Disc
+Name_Short = warddsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2265
+
+[2266]
+Name = 11 Disc
+Name_Short = 11dsc
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = -1
+Stackable_Amount = 64
+On_Client = 2266
+
+[10000]
+Name = Game of Life
+Name_Short = gol
+Dig_Event = 
+Place_Event = 
+Corresponding_Block = 255
+Stackable_Amount = 64
+On_Client = 35
+

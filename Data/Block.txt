@@ -1,0 +1,3836 @@
+; Physic: 0   = Physic Off
+;         1   = 'Physic_Event'
+;         10  = Original Sand (Falling)
+;         11  = Original Sand (Instant move to lowest block)
+;         12  = New Sand (Max 45°)
+;         20  = Original Water
+;         21  = Finite Water
+;         22  = Infinite Fluid (I know, it's not a good idea with infinite worlds ;) )
+;         30  = Original Lava
+;         31  = Finite Lava
+;         100 = Selfdestruct
+
+[0]
+Name = Air
+Name_Short = air
+On_Client = 0
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 0
+Killer = 0
+Color = 0
+Light_Emit = 0
+Light_Decrease = 1
+
+[1]
+Name = Stone
+Name_Short = stn
+On_Client = 1
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 1
+Killer = 0
+Color = 65793
+Light_Emit = 0
+Light_Decrease = 16
+
+[2]
+Name = Grass
+Name_Short = grs
+On_Client = 2
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 2
+Killer = 0
+Color = 131586
+Light_Emit = 0
+Light_Decrease = 16
+
+[3]
+Name = Dirt
+Name_Short = drt
+On_Client = 3
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 3
+Killer = 0
+Color = 197379
+Light_Emit = 0
+Light_Decrease = 16
+
+[4]
+Name = Cobblestone
+Name_Short = cbl
+On_Client = 4
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 4
+Killer = 0
+Color = 263172
+Light_Emit = 0
+Light_Decrease = 16
+
+[5]
+Name = Wood
+Name_Short = wod
+On_Client = 5
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 5
+Killer = 0
+Color = 328965
+Light_Emit = 0
+Light_Decrease = 16
+
+[6]
+Name = Sapling
+Name_Short = spl
+On_Client = 6
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 6
+Killer = 0
+Color = 394758
+Light_Emit = 0
+Light_Decrease = 1
+
+[7]
+Name = Bedrock
+Name_Short = brk
+On_Client = 7
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 7
+Killer = 0
+Color = 460551
+Light_Emit = 0
+Light_Decrease = 16
+
+[8]
+Name = Water
+Name_Short = wtr
+On_Client = 8
+Physic_Type = 20
+Physic_Event = 
+Physic_Time = 200
+Physic_Time_Random = 0
+Physic_Quantisation = 200
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 8
+Killer = 0
+Color = 526344
+Light_Emit = 0
+Light_Decrease = 2
+
+[9]
+Name = Stationary Water
+Name_Short = stwtr
+On_Client = 9
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 9
+Killer = 0
+Color = 592137
+Light_Emit = 0
+Light_Decrease = 2
+
+[10]
+Name = Lava
+Name_Short = laa
+On_Client = 10
+Physic_Type = 30
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 10
+Killer = 0
+Color = 657930
+Light_Emit = 15
+Light_Decrease = 16
+
+[11]
+Name = Stationary Lava
+Name_Short = stlaa
+On_Client = 11
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 11
+Killer = 0
+Color = 723723
+Light_Emit = 15
+Light_Decrease = 16
+
+[12]
+Name = Sand
+Name_Short = snd
+On_Client = 12
+Physic_Type = 12
+Physic_Event = 
+Physic_Time = 250
+Physic_Time_Random = 0
+Physic_Quantisation = 250
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 12
+Killer = 0
+Color = 789516
+Light_Emit = 0
+Light_Decrease = 16
+
+[13]
+Name = Gravel
+Name_Short = grv
+On_Client = 13
+Physic_Type = 10
+Physic_Event = 
+Physic_Time = 100
+Physic_Time_Random = 0
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 13
+Killer = 0
+Color = 855309
+Light_Emit = 0
+Light_Decrease = 16
+
+[14]
+Name = Gold ore
+Name_Short = gldore
+On_Client = 14
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 14
+Killer = 0
+Color = 921102
+Light_Emit = 0
+Light_Decrease = 16
+
+[15]
+Name = Iron ore
+Name_Short = irnore
+On_Client = 15
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 15
+Killer = 0
+Color = 986895
+Light_Emit = 0
+Light_Decrease = 16
+
+[16]
+Name = Coal ore
+Name_Short = colore
+On_Client = 16
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 16
+Killer = 0
+Color = 1052688
+Light_Emit = 0
+Light_Decrease = 16
+
+[17]
+Name = Tree
+Name_Short = tre
+On_Client = 17
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 17
+Killer = 0
+Color = 1118481
+Light_Emit = 0
+Light_Decrease = 16
+
+[18]
+Name = Leaves
+Name_Short = lvs
+On_Client = 18
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 18
+Killer = 0
+Color = 1184274
+Light_Emit = 0
+Light_Decrease = 2
+
+[19]
+Name = Sponge
+Name_Short = spg
+On_Client = 19
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 19
+Killer = 0
+Color = 1250067
+Light_Emit = 0
+Light_Decrease = 16
+
+[20]
+Name = Glass
+Name_Short = gls
+On_Client = 20
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 20
+Killer = 0
+Color = 1315860
+Light_Emit = 0
+Light_Decrease = 1
+
+[21]
+Name = Lapis Lazuli Ore
+Name_Short = laplaore
+On_Client = 21
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 21
+Killer = 0
+Color = 1381653
+Light_Emit = 0
+Light_Decrease = 16
+
+[22]
+Name = Lapis Lazuli Block
+Name_Short = laplablk
+On_Client = 22
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 22
+Killer = 0
+Color = 1447446
+Light_Emit = 0
+Light_Decrease = 16
+
+[23]
+Name = Dispenser
+Name_Short = dpr
+On_Client = 23
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 23
+Killer = 0
+Color = 1513239
+Light_Emit = 0
+Light_Decrease = 16
+
+[24]
+Name = Sandstone
+Name_Short = sstn
+On_Client = 24
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 24
+Killer = 0
+Color = 1579032
+Light_Emit = 0
+Light_Decrease = 16
+
+[25]
+Name = Note Block
+Name_Short = ntblk
+On_Client = 25
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 0
+Physic_Time_Random = 0
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = Lua:Block_Rightclick_Noteblock
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 25
+Killer = 0
+Color = 1644825
+Light_Emit = 0
+Light_Decrease = 16
+
+[26]
+Name = Bed
+Name_Short = bed
+On_Client = 26
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 109
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 26
+Killer = 0
+Color = 1710618
+Light_Emit = 0
+Light_Decrease = 1
+
+[27]
+Name = Powered Rail
+Name_Short = prail
+On_Client = 27
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 27
+Killer = 0
+Color = 1776411
+Light_Emit = 0
+Light_Decrease = 1
+
+[28]
+Name = Detector Rail
+Name_Short = drail
+On_Client = 28
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 28
+Killer = 0
+Color = 1842204
+Light_Emit = 0
+Light_Decrease = 1
+
+[29]
+Name = Sticky Piston
+Name_Short = stkpstn
+On_Client = 29
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Sticky_Piston
+Physic_Time = 0
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 29
+Killer = 0
+Color = 1842204
+Light_Emit = 0
+Light_Decrease = 16
+
+[30]
+Name = Web
+Name_Short = web
+On_Client = 30
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 30
+Killer = 0
+Color = 1973790
+Light_Emit = 0
+Light_Decrease = 1
+
+[31]
+Name = Tall Grass
+Name_Short = tlgrs
+On_Client = 31
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 31
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[32]
+Name = Dead Bush
+Name_Short = dbsh
+On_Client = 32
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 32
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[33]
+Name = Piston
+Name_Short = pstn
+On_Client = 33
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Piston
+Physic_Time = 0
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 33
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[34]
+Name = Piston Extension
+Name_Short = pstnext
+On_Client = 34
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 0
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 34
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[35]
+Name = Wool
+Name_Short = wol
+On_Client = 35
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 35
+Killer = 0
+Color = 2302755
+Light_Emit = 0
+Light_Decrease = 16
+
+[36]
+Name = Block moved by Pison
+Name_Short = bmbp
+On_Client = 36
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 36
+Killer = 0
+Color = 2302755
+Light_Emit = 0
+Light_Decrease = 16
+
+[37]
+Name = Yellow Flower
+Name_Short = yflw
+On_Client = 37
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 37
+Killer = 0
+Color = 2434341
+Light_Emit = 0
+Light_Decrease = 1
+
+[38]
+Name = Red Rose
+Name_Short = rse
+On_Client = 38
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 38
+Killer = 0
+Color = 2500134
+Light_Emit = 0
+Light_Decrease = 1
+
+[39]
+Name = Brown Mushroom
+Name_Short = bmshr
+On_Client = 39
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 39
+Killer = 0
+Color = 2565927
+Light_Emit = 1
+Light_Decrease = 1
+
+[40]
+Name = Red Mushroom
+Name_Short = rmshr
+On_Client = 40
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 40
+Killer = 0
+Color = 2631720
+Light_Emit = 0
+Light_Decrease = 1
+
+[41]
+Name = Gold Block
+Name_Short = gldblk
+On_Client = 41
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 41
+Killer = 0
+Color = 2697513
+Light_Emit = 0
+Light_Decrease = 16
+
+[42]
+Name = Iron Block
+Name_Short = irnblk
+On_Client = 42
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 42
+Killer = 0
+Color = 2763306
+Light_Emit = 0
+Light_Decrease = 16
+
+[43]
+Name = Double Stone Slab
+Name_Short = dblstnslb
+On_Client = 43
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 43
+Killer = 0
+Color = 2829099
+Light_Emit = 0
+Light_Decrease = 16
+
+[44]
+Name = Stone Slab
+Name_Short = stnslb
+On_Client = 44
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 3
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 44
+Killer = 0
+Color = 2894892
+Light_Emit = 0
+Light_Decrease = 16
+
+[45]
+Name = Brick Block
+Name_Short = brk
+On_Client = 45
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 45
+Killer = 0
+Color = 2960685
+Light_Emit = 0
+Light_Decrease = 16
+
+[46]
+Name = TNT
+Name_Short = tnt
+On_Client = 46
+Physic_Type = 0
+Physic_Event = Lua:Physic_TNT
+Physic_Time = 100
+Physic_Time_Random = 0
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = Lua:Block_Rightclick_TNT
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 46
+Killer = 0
+Color = 3026478
+Light_Emit = 0
+Light_Decrease = 16
+
+[47]
+Name = Bookshelf
+Name_Short = bokslf
+On_Client = 47
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 47
+Killer = 0
+Color = 3092271
+Light_Emit = 0
+Light_Decrease = 16
+
+[48]
+Name = Moss Stone
+Name_Short = mosstn
+On_Client = 48
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 48
+Killer = 0
+Color = 3158064
+Light_Emit = 0
+Light_Decrease = 16
+
+[49]
+Name = Obsidian
+Name_Short = obn
+On_Client = 49
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 49
+Killer = 0
+Color = 3223857
+Light_Emit = 0
+Light_Decrease = 16
+
+[50]
+Name = Torch
+Name_Short = trc
+On_Client = 50
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 50
+Killer = 0
+Color = 3289650
+Light_Emit = 14
+Light_Decrease = 1
+
+[51]
+Name = Fire
+Name_Short = fir
+On_Client = 51
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 51
+Killer = 0
+Color = 3355443
+Light_Emit = 15
+Light_Decrease = 1
+
+[52]
+Name = Monster Spawner
+Name_Short = monspw
+On_Client = 52
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 52
+Killer = 0
+Color = 3421236
+Light_Emit = 0
+Light_Decrease = 1
+
+[53]
+Name = Wooden Stairs
+Name_Short = wdnstr
+On_Client = 53
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 53
+Killer = 0
+Color = 3487029
+Light_Emit = 0
+Light_Decrease = 1
+
+[54]
+Name = Chest
+Name_Short = cst
+On_Client = 54
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 54
+Killer = 0
+Color = 3552822
+Light_Emit = 0
+Light_Decrease = 16
+
+[55]
+Name = Redstone Wire
+Name_Short = rdstn
+On_Client = 55
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Wire
+Physic_Time = 0
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = Lua:Physic_Redstone_Helper_Delete
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 331
+Killer = 0
+Color = 3618615
+Light_Emit = 0
+Light_Decrease = 1
+
+[56]
+Name = Diamond Ore
+Name_Short = dmdore
+On_Client = 56
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 56
+Killer = 0
+Color = 3684408
+Light_Emit = 0
+Light_Decrease = 16
+
+[57]
+Name = Diamond Block
+Name_Short = dndblk
+On_Client = 57
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 57
+Killer = 0
+Color = 3750201
+Light_Emit = 0
+Light_Decrease = 16
+
+[58]
+Name = Workbench
+Name_Short = wbnc
+On_Client = 58
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 58
+Killer = 0
+Color = 3815994
+Light_Emit = 0
+Light_Decrease = 16
+
+[59]
+Name = Crops
+Name_Short = crp
+On_Client = 59
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 59
+Killer = 0
+Color = 3881787
+Light_Emit = 0
+Light_Decrease = 1
+
+[60]
+Name = Farmland
+Name_Short = fmlnd
+On_Client = 60
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 60
+Killer = 0
+Color = 3947580
+Light_Emit = 0
+Light_Decrease = 16
+
+[61]
+Name = Furnace
+Name_Short = fnc
+On_Client = 61
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 61
+Killer = 0
+Color = 4013373
+Light_Emit = 0
+Light_Decrease = 16
+
+[62]
+Name = Burning Furnace
+Name_Short = bngfnc
+On_Client = 62
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 62
+Killer = 0
+Color = 4079166
+Light_Emit = 13
+Light_Decrease = 16
+
+[63]
+Name = Sign Post
+Name_Short = sgn
+On_Client = 63
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 63
+Killer = 0
+Color = 4144959
+Light_Emit = 0
+Light_Decrease = 1
+
+[64]
+Name = Wooden Door
+Name_Short = wdndor
+On_Client = 64
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 0
+Physic_Time_Random = 0
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 4
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = Lua:Block_Rightclick_Door
+Leftclick_Event = Lua:Block_Leftclick_Door
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 324
+Killer = 0
+Color = 4210752
+Light_Emit = 0
+Light_Decrease = 1
+
+[65]
+Name = Ladder
+Name_Short = ldr
+On_Client = 65
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 5
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 65
+Killer = 0
+Color = 4276545
+Light_Emit = 0
+Light_Decrease = 1
+
+[66]
+Name = Minecart Tracks
+Name_Short = mcttrk
+On_Client = 66
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 66
+Killer = 0
+Color = 4342338
+Light_Emit = 0
+Light_Decrease = 1
+
+[67]
+Name = Cobblestone Stairs
+Name_Short = cblstr
+On_Client = 67
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 67
+Killer = 0
+Color = 4408131
+Light_Emit = 0
+Light_Decrease = 16
+
+[68]
+Name = Wall Sign
+Name_Short = walsgn
+On_Client = 68
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 68
+Killer = 0
+Color = 4473924
+Light_Emit = 0
+Light_Decrease = 1
+
+[69]
+Name = Lever
+Name_Short = lvr
+On_Client = 69
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = Lua:Block_Rightclick_Redstone_Lever
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 69
+Killer = 0
+Color = 4539717
+Light_Emit = 0
+Light_Decrease = 1
+
+[70]
+Name = Stone Pressure Plate
+Name_Short = stnprsplt
+On_Client = 70
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 70
+Killer = 0
+Color = 4605510
+Light_Emit = 0
+Light_Decrease = 1
+
+[71]
+Name = Iron Door
+Name_Short = irndor
+On_Client = 71
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 4
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = Lua:Block_Rightclick_Door
+Leftclick_Event = Lua:Block_Leftclick_Door
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 330
+Killer = 0
+Color = 4671303
+Light_Emit = 0
+Light_Decrease = 1
+
+[72]
+Name = Wooden Pressure Plate
+Name_Short = wdnprsplt
+On_Client = 72
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 72
+Killer = 0
+Color = 4737096
+Light_Emit = 0
+Light_Decrease = 1
+
+[73]
+Name = Redstone Ore
+Name_Short = rdstnore
+On_Client = 73
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 73
+Killer = 0
+Color = 4802889
+Light_Emit = 0
+Light_Decrease = 16
+
+[74]
+Name = Glowing Redstone Ore
+Name_Short = glwrdstnore
+On_Client = 74
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 74
+Killer = 0
+Color = 4868682
+Light_Emit = 9
+Light_Decrease = 16
+
+[75]
+Name = Redstone Torch Off
+Name_Short = rdstntrcoff
+On_Client = 75
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Torch_Off
+Physic_Time = 100
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 10
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = Lua:Physic_Redstone_Helper_Delete
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 75
+Killer = 0
+Color = 4934475
+Light_Emit = 0
+Light_Decrease = 1
+
+[76]
+Name = Redstone Torch On
+Name_Short = rdstntrcon
+On_Client = 76
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Torch_On
+Physic_Time = 100
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 10
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = Lua:Physic_Redstone_Helper_Delete
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 76
+Killer = 0
+Color = 5000268
+Light_Emit = 7
+Light_Decrease = 1
+
+[77]
+Name = Stone Button
+Name_Short = stnbtn
+On_Client = 77
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Button
+Physic_Time = 1000
+Physic_Time_Random = 50
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 10
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = Lua:Block_Rightclick_Redstone_Button
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 77
+Killer = 0
+Color = 5066061
+Light_Emit = 0
+Light_Decrease = 1
+
+[78]
+Name = Snow
+Name_Short = snw
+On_Client = 78
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 6
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 78
+Killer = 0
+Color = 5131854
+Light_Emit = 0
+Light_Decrease = 1
+
+[79]
+Name = Ice
+Name_Short = ice
+On_Client = 79
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 79
+Killer = 0
+Color = 5197647
+Light_Emit = 0
+Light_Decrease = 2
+
+[80]
+Name = Snow Block
+Name_Short = snwblk
+On_Client = 80
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 80
+Killer = 0
+Color = 5263440
+Light_Emit = 0
+Light_Decrease = 16
+
+[81]
+Name = Cactus
+Name_Short = cts
+On_Client = 81
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 7
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 81
+Killer = 0
+Color = 5329233
+Light_Emit = 0
+Light_Decrease = 16
+
+[82]
+Name = Clay
+Name_Short = cly
+On_Client = 82
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 82
+Killer = 0
+Color = 5395026
+Light_Emit = 0
+Light_Decrease = 16
+
+[83]
+Name = Sugar Cane
+Name_Short = sgrcne
+On_Client = 83
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 83
+Killer = 0
+Color = 5460819
+Light_Emit = 0
+Light_Decrease = 1
+
+[84]
+Name = Jukebox
+Name_Short = jbx
+On_Client = 84
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 84
+Killer = 0
+Color = 5526612
+Light_Emit = 0
+Light_Decrease = 16
+
+[85]
+Name = Fence
+Name_Short = fnc
+On_Client = 85
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 8
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 85
+Killer = 0
+Color = 5592405
+Light_Emit = 0
+Light_Decrease = 1
+
+[86]
+Name = Pumpkin
+Name_Short = pmk
+On_Client = 86
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 86
+Killer = 0
+Color = 5658198
+Light_Emit = 0
+Light_Decrease = 16
+
+[87]
+Name = Netherrack
+Name_Short = ntr
+On_Client = 87
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 87
+Killer = 0
+Color = 5723991
+Light_Emit = 0
+Light_Decrease = 16
+
+[88]
+Name = Soul Sand
+Name_Short = ssnd
+On_Client = 88
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 115
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 88
+Killer = 0
+Color = 5789784
+Light_Emit = 0
+Light_Decrease = 16
+
+[89]
+Name = Glowstone
+Name_Short = glwstn
+On_Client = 89
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 89
+Killer = 0
+Color = 5855577
+Light_Emit = 15
+Light_Decrease = 16
+
+[90]
+Name = Portal
+Name_Short = ptl
+On_Client = 90
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 90
+Killer = 0
+Color = 5921370
+Light_Emit = 11
+Light_Decrease = 1
+
+[91]
+Name = Jack-O-Lantern
+Name_Short = jol
+On_Client = 91
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 91
+Killer = 0
+Color = 5987163
+Light_Emit = 15
+Light_Decrease = 16
+
+[92]
+Name = Cake Block
+Name_Short = cak
+On_Client = 92
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 9
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 92
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[93]
+Name = Redstone Repeater Off
+Name_Short = rdstnrptroff
+On_Client = 93
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Repeater_Off
+Physic_Time = 100
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 10
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 101
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = Lua:Block_Rightclick_Redstone_Repeater
+Leftclick_Event = Lua:Physic_Redstone_Helper_Delete
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 356
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[94]
+Name = Redstone Repeater On
+Name_Short = rdstnrptron
+On_Client = 94
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Repeater_On
+Physic_Time = 100
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 101
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = Lua:Block_Rightclick_Redstone_Repeater
+Leftclick_Event = Lua:Physic_Redstone_Helper_Delete
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 356
+Killer = 0
+Color = 6052956
+Light_Emit = 9
+Light_Decrease = 1
+
+[95]
+Name = Locked Chest
+Name_Short = lckcst
+On_Client = 95
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 95
+Killer = 0
+Color = 6052956
+Light_Emit = 15
+Light_Decrease = 16
+
+[96]
+Name = Trapdoor
+Name_Short = trpdor
+On_Client = 96
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 10
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 96
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[97]
+Name = Monster Egg
+Name_Short = monegg
+On_Client = 97
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 97
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[98]
+Name = Stone Bricks
+Name_Short = stnbrk
+On_Client = 98
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 98
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[99]
+Name = Huge Brown Mushroom
+Name_Short = hbmshr
+On_Client = 99
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 99
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[100]
+Name = Huge Red Mushroom
+Name_Short = hrmshr
+On_Client = 100
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 100
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[101]
+Name = Iron Bars
+Name_Short = irnbrs
+On_Client = 101
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 101
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[102]
+Name = Glass Pane
+Name_Short = glspne
+On_Client = 102
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 102
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[103]
+Name = Melon
+Name_Short = mln
+On_Client = 103
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 103
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[104]
+Name = Pumpkin Stem
+Name_Short = pmpkstm
+On_Client = 104
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 104
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[105]
+Name = Melon Stem
+Name_Short = mlnstm
+On_Client = 105
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 105
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[106]
+Name = Vines
+Name_Short = vns
+On_Client = 106
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 106
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[107]
+Name = Fence Gate
+Name_Short = fncgat
+On_Client = 107
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 107
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[108]
+Name = Brick Stairs
+Name_Short = brkstr
+On_Client = 108
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 108
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[109]
+Name = Stone Brick Stairs
+Name_Short = stnbrkstr
+On_Client = 109
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 109
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[110]
+Name = Mycelium
+Name_Short = myc
+On_Client = 110
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 110
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[111]
+Name = Lily Pad
+Name_Short = lpad
+On_Client = 111
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 101
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 111
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[112]
+Name = Nether Brick
+Name_Short = ntbrk
+On_Client = 112
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 112
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[113]
+Name = Nether Brick Fence
+Name_Short = ntbrkfnc
+On_Client = 113
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 8
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 113
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[114]
+Name = Nether Brick Stairs
+Name_Short = ntbrkstr
+On_Client = 114
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 114
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[115]
+Name = Nether Wart
+Name_Short = ntwrt
+On_Client = 115
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 115
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[116]
+Name = Enchantment Table
+Name_Short = enchtbl
+On_Client = 116
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 112
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 116
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[117]
+Name = Brewing Stand
+Name_Short = brwstd
+On_Client = 117
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 12
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 117
+Killer = 0
+Color = 6052956
+Light_Emit = 1
+Light_Decrease = 1
+
+[118]
+Name = Cauldron
+Name_Short = cldrn
+On_Client = 118
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 118
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[119]
+Name = End Portal
+Name_Short = eport
+On_Client = 119
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 119
+Killer = 0
+Color = 6052956
+Light_Emit = 15
+Light_Decrease = 16
+
+[120]
+Name = End Portal Frame
+Name_Short = eportfrm
+On_Client = 120
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 113
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 120
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[121]
+Name = End Stone
+Name_Short = estn
+On_Client = 121
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 121
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[122]
+Name = Dragon Egg
+Name_Short = drgegg
+On_Client = 122
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 122
+Killer = 0
+Color = 6052956
+Light_Emit = 1
+Light_Decrease = 1
+
+[123]
+Name = Redstone Lamp off
+Name_Short = rdstnlmpoff
+On_Client = 123
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Lamp_Off
+Physic_Time = 0
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 123
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[124]
+Name = Redstone Lamp on
+Name_Short = rdstnlmpon
+On_Client = 124
+Physic_Type = 1
+Physic_Event = Lua:Physic_Redstone_Lamp_On
+Physic_Time = 0
+Physic_Time_Random = 0
+Physic_Quantisation = 50
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 124
+Killer = 0
+Color = 6052956
+Light_Emit = 15
+Light_Decrease = 16
+
+[125]
+Name = Wooden Double Slab
+Name_Short = wdndblslb
+On_Client = 125
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 125
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[126]
+Name = Wooden Slab
+Name_Short = wdnslb
+On_Client = 126
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 3
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 126
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[127]
+Name = Cocoa Plant
+Name_Short = cocplt
+On_Client = 127
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 127
+Killer = 0
+Color = 6052956
+Light_Emit = 2
+Light_Decrease = 1
+
+[128]
+Name = Sandstone Stairs
+Name_Short = sndstnstr
+On_Client = 128
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 128
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[129]
+Name = Emerald Ore
+Name_Short = emrore
+On_Client = 129
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 129
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[130]
+Name = Ender Chest
+Name_Short = ecst
+On_Client = 130
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 130
+Killer = 0
+Color = 6052956
+Light_Emit = 7
+Light_Decrease = 16
+
+[131]
+Name = Tripwire Hook
+Name_Short = trpwrhk
+On_Client = 131
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 131
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[132]
+Name = Tripwire
+Name_Short = trpwr
+On_Client = 132
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 0
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 132
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 1
+
+[133]
+Name = Block of Emerald
+Name_Short = blkemr
+On_Client = 133
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 133
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[134]
+Name = Spruce Wood Stairs
+Name_Short = sprwdstr
+On_Client = 134
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 134
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[135]
+Name = Birch Wood Stairs
+Name_Short = brcwdstr
+On_Client = 135
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 135
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[136]
+Name = Jungle Wood Stairs
+Name_Short = jngwdstr
+On_Client = 136
+Physic_Type = 0
+Physic_Event = 
+Physic_Time = 1000
+Physic_Time_Random = 100
+Physic_Quantisation = 0
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 2
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 136
+Killer = 0
+Color = 6052956
+Light_Emit = 0
+Light_Decrease = 16
+
+[137]
+
+[138]
+
+[139]
+
+[140]
+
+[141]
+
+[142]
+
+[143]
+
+[144]
+
+[145]
+
+[146]
+
+[147]
+
+[148]
+
+[149]
+
+[150]
+
+[151]
+
+[152]
+
+[153]
+
+[154]
+
+[155]
+
+[156]
+
+[157]
+
+[158]
+
+[159]
+
+[160]
+
+[161]
+
+[162]
+
+[163]
+
+[164]
+
+[165]
+
+[166]
+
+[167]
+
+[168]
+
+[169]
+
+[170]
+
+[171]
+
+[172]
+
+[173]
+
+[174]
+
+[175]
+
+[176]
+
+[177]
+
+[178]
+
+[179]
+
+[180]
+
+[181]
+
+[182]
+
+[183]
+
+[184]
+
+[185]
+
+[186]
+
+[187]
+
+[188]
+
+[189]
+
+[190]
+
+[191]
+
+[192]
+
+[193]
+
+[194]
+
+[195]
+
+[196]
+
+[197]
+
+[198]
+
+[199]
+
+[200]
+
+[201]
+
+[202]
+
+[203]
+
+[204]
+
+[205]
+
+[206]
+
+[207]
+
+[208]
+
+[209]
+
+[210]
+
+[211]
+
+[212]
+
+[213]
+
+[214]
+
+[215]
+
+[216]
+
+[217]
+
+[218]
+
+[219]
+
+[220]
+
+[221]
+
+[222]
+
+[223]
+
+[224]
+
+[225]
+
+[226]
+
+[227]
+
+[228]
+
+[229]
+
+[230]
+
+[231]
+
+[232]
+
+[233]
+
+[234]
+
+[235]
+
+[236]
+
+[237]
+
+[238]
+
+[239]
+
+[240]
+
+[241]
+
+[242]
+
+[243]
+
+[244]
+
+[245]
+
+[246]
+
+[247]
+
+[248]
+
+[249]
+
+[250]
+
+[251]
+
+[252]
+
+[253]
+
+[254]
+
+[255]
+Name = Game of Life
+Name_Short = gol
+On_Client = 35
+Physic_Type = 1
+Physic_Event = Lua:Physic_Game_Of_Life
+Physic_Time = 200
+Physic_Time_Random = 0
+Physic_Quantisation = 200
+Physic_Allowed_Trigger_Type = 20
+Physic_Repeat = 0
+Physic_On_Load = 0
+Collision_Boundary = 1
+Create_Event = 
+Delete_Event = 
+Rightclick_Event = 
+Leftclick_Event = 
+Rank_Place = 32767
+Rank_Delete = 0
+After_Delete = 0
+Corresponding_Item = 10000
+Killer = 0
+Color = 2302755
+Light_Emit = 0
+Light_Decrease = 16
+

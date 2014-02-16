@@ -1,0 +1,19 @@
+﻿
+[General]
+Version = 1000
+UID = A9sOa7XmYeaY5E30d06Ys4Ah5GI7nJ1M
+Name = Castle
+[Spawn]
+X = 208.49243832835754
+Y = 171.80913958170453
+Z = 78.289631503827806
+Yaw = -431.250092
+Pitch = 0.149842
+Roll = 0.000000
+[World]
+Time_Mode = 0
+Time_Factor = 0.000000
+Time = 0.000000
+Limit_Radius = -1
+Generator = Lua:Mapfill_standart
+Seed = 832445548

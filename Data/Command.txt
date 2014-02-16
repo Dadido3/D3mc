@@ -1,0 +1,36 @@
+[Give]
+Name = Give
+
+[Teleport]
+Name = TP
+
+[Explode]
+Name = Explode
+
+[Box]
+Name = Box
+
+[Client_List]
+Name = Players
+
+[Plugin_List]
+Name = Plugins
+
+[Plugin_Load]
+Name = Pload
+
+[Plugin_Unload]
+Name = Punload
+
+[World_List]
+Name = Worlds
+
+[World_Set_Spawn]
+Name = Spawn
+
+[World_Change]
+Name = World
+
+[World_Time]
+Name = Time
+

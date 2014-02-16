@@ -1,0 +1,19 @@
+﻿
+[General]
+Version = 0
+UID = 
+Name = Test
+[Spawn]
+X = -15.72077536800812
+Y = 391.53496104389376
+Z = 87.760393056774447
+Yaw = -341.099518
+Pitch = 48.749981
+Roll = 0.000000
+[World]
+Time_Mode = 0
+Time_Factor = 1.000000
+Time = 58631.000000
+Limit_Radius = -1
+Generator = Lua:Mapfill_standart
+Seed = 1571999611

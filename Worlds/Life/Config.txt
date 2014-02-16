@@ -1,0 +1,19 @@
+﻿
+[General]
+Version = 1000
+UID = yqa0vJDyiqFN88NsL5Q63F6hxciH6t0C
+Name = Life
+[Spawn]
+X = -157.40779646688492
+Y = 40.914104572500058
+Z = 24.612800370914087
+Yaw = -5622.256836
+Pitch = 37.050049
+Roll = 0.000000
+[World]
+Time_Mode = 0
+Time_Factor = 0.000000
+Time = 43200.000000
+Limit_Radius = -1
+Generator = Lua:Mapfill_standart
+Seed = 478539748

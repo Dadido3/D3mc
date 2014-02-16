@@ -1,0 +1,19 @@
+﻿
+[General]
+Version = 1000
+UID = 
+Name = Construct
+[Spawn]
+X = 124.04154110079796
+Y = 88.210116186262184
+Z = 109.07118767655066
+Yaw = -2522.560791
+Pitch = 22.649965
+Roll = 0.000000
+[World]
+Time_Mode = 0
+Time_Factor = 0.000000
+Time = 43200.000000
+Limit_Radius = -1
+Generator = Lua:Mapfill_standart
+Seed = 2010259594

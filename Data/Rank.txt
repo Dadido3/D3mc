@@ -1,0 +1,54 @@
+[-2147483648]
+Name = Griefer
+Prefix = §d
+Suffix = 
+
+[0]
+Name = Guest
+Prefix = §f
+Suffix = 
+
+[10]
+Name = Builder
+Prefix = §e
+Suffix = 
+
+[60]
+Name = Trusted Builder
+Prefix = §6
+Suffix = 
+
+[100]
+Name = Architect
+Prefix = §a
+Suffix = 
+
+[149]
+Name = Half-Op
+Prefix = §2
+Suffix = 
+
+[150]
+Name = Operator
+Prefix = §9
+Suffix = 
+
+[200]
+Name = Admin
+Prefix = §4
+Suffix = 
+
+[999]
+Name = Co-Owner
+Prefix = §3
+Suffix = 
+
+[1000]
+Name = Owner
+Prefix = §b
+Suffix = 
+
+[2147483647]
+Name = Founder
+Prefix = §8
+Suffix = 

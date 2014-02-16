@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.21 LTS Beta 1 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="D3-SMP"/>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2013-11-28 00:50" user="David Vogel" host="DAVIDS"/>
+  </section>
+  <section name="files">
+    <file name="Data\Block.txt">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+-"/>
+      <fingerprint md5="b7739ce3334599d0d247fc46513667ba"/>
+    </file>
+    <file name="Data\Item.txt">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+-"/>
+      <fingerprint md5="69a13485f76a7009979f53c8b3359a9f"/>
+    </file>
+    <file name="Documentation\Inventories.png">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+-"/>
+      <fingerprint md5="25b703278c0a0d4952d294a690e02dc1"/>
+    </file>
+    <file name="Files.txt">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="22036ba88af89b70ec6ea74ef9dbaccd"/>
+    </file>
+    <file name="Includes\Block.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="b1ebe31a25aee89877970616e0234986"/>
+    </file>
+    <file name="Includes\Entity.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="74cfeb2b4a8531a8fe133c684cd77290"/>
+    </file>
+    <file name="Includes\Entity_Inventory.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="3c8c50ac50f67221690de0d4ff2a2977"/>
+    </file>
+    <file name="Includes\Entity_Physic.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="85c5c716c4314b073b988ff9c5035930"/>
+    </file>
+    <file name="Includes\Files.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="c06c79fff1b77b7d3dfea6ff4c5991f8"/>
+    </file>
+    <file name="Includes\Item.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="dbe6e506eabf94135354d0282fc8972a"/>
+    </file>
+    <file name="Includes\Log.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="ed2ca90eeed4bd6a54a2a24a629f46f9"/>
+    </file>
+    <file name="Includes\Network_Client.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="31d70b72924b73adb13561d8222c2356"/>
+    </file>
+    <file name="Includes\Network_Server.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="cee03de4a74dfa48150fd667a514a576"/>
+    </file>
+    <file name="Includes\Timer.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="4b1be0128f960c5df4f3a408b8b732e5"/>
+    </file>
+    <file name="Plugins\SDK\Include.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+++"/>
+      <fingerprint md5="c7a387502627121e089ade40bfe193fd"/>
+    </file>
+    <file name="Includes\World_Send.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="074159f45d0d4ef0feee23e7bc0074aa"/>
+    </file>
+    <file name="Includes\Entity_Send.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="ba09651f1414ac3b876311da9d18a666"/>
+    </file>
+    <file name="Plugins\Example\Example.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++-"/>
+      <fingerprint md5="df73bf533bad1f87233fff1727edd9b6"/>
+    </file>
+    <file name="Includes\Build_Mode.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="d795da003f1b2fc4362715b17744457c"/>
+    </file>
+    <file name="Includes\Command.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="30cb345c6e33b0b60eccfcef1b3cd975"/>
+    </file>
+    <file name="Plugins\Lua\Lua.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+++"/>
+      <fingerprint md5="711d652e80e1e54541b41be88175353b"/>
+    </file>
+    <file name="Plugins\Lua\Lua.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+++"/>
+      <fingerprint md5="05ee40a2b9aab581df18f1d74bd406d4"/>
+    </file>
+    <file name="Includes\Message.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="8d9e3cddecbe65f1edcd2a41834e3cc2"/>
+    </file>
+    <file name="Server.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="1b06660abef2a282b1817acfc0b7fab2"/>
+    </file>
+    <file name="S_Includes\Constants.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="187b41086652550297f521ee8f5f91b1"/>
+    </file>
+    <file name="S_Includes\Structures.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="79e5d6f90dc3c72d74e9da5c2240e942"/>
+    </file>
+    <file name="Includes\World_Light.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="edb1f89e470df18c1f3fd7edfe08fe52"/>
+    </file>
+    <file name="Includes\World_Physic.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="d7a8cd9834d07d3d1b34e01ef10b42e8"/>
+    </file>
+    <file name="Includes\Plugin.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="a2d6c1d6e5eb970200e7628ed27bf9fa"/>
+    </file>
+    <file name="Includes\Error.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="fef8d51327fa1fb6fb6ea77011f23f12"/>
+    </file>
+    <file name="S_Includes\Functions.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="9905476b275b26367e8d18d1e9fc6f30"/>
+    </file>
+    <file name="Includes\World_Block.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="4fb4e7b0ec2001e4f3989a1799a13909"/>
+    </file>
+    <file name="Includes\World.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="95c1bfb00a624cbc2f90924e6ee39b57"/>
+    </file>
+    <file name="Includes\World_Column.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="53e45a6d8124c0b92dd3d50fd7345d52"/>
+    </file>
+    <file name="Data\Build_Mode.txt">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+-"/>
+      <fingerprint md5="6d2da12bf24820b1310666d2b3f304bd"/>
+    </file>
+    <file name="Data\Command.txt">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+-"/>
+      <fingerprint md5="dbfcc412e9e3b344dbc40eb3efa765ef"/>
+    </file>
+    <file name="Data\Worlds.txt">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+-"/>
+      <fingerprint md5="62b6021860014a0bc75b8ac3a092288c"/>
+    </file>
+    <file name="Includes\Entity_Type.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="360b925030857267f43c745bcf9ca19f"/>
+    </file>
+    <file name="Includes\World_Effect.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="34f6287e7e3b2c8086c978a1526143a2"/>
+    </file>
+    <file name="Includes\Network_Client_Packets.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="907f5fb9921f8fa2dd368d65f22d42ac"/>
+    </file>
+    <file name="Includes\Entity_Event.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="8b466fdfc8e0f22a64cbfab2d3bd8b9d"/>
+    </file>
+    <file name="Includes\World_Collision.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="1b0d78b14fc10a6d7f027153f8274242"/>
+    </file>
+    <file name="Includes\Player.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="4f1206f0cc61607c33a857e370f35e8f"/>
+    </file>
+    <file name="Includes\Rank.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="aa47d7a27343031ae80468749cbaf670"/>
+    </file>
+    <file name="..\..\PolarSSL\Includes\PolarSSL.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="-+"/>
+      <fingerprint md5="e252996d17ba77d6dfbc97744564b255"/>
+    </file>
+    <file name="..\..\ZLib\Includes\ZLib.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="-+"/>
+      <fingerprint md5="45fb4741006339f4aaa3dfa70f482694"/>
+    </file>
+    <file name="..\..\D3HT\Includes\D3HT.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="--"/>
+      <fingerprint md5="9f673384be2489f10f5c7d7899d8197f"/>
+    </file>
+    <file name="..\..\D3NBT\Includes\D3NBT.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="-+"/>
+      <fingerprint md5="9539ba88fad0d93bd7f2bcedb2670489"/>
+    </file>
+    <file name="Includes\Network_Encryption.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="59c54d93b246185bddf2ac06817afb3d"/>
+    </file>
+    <file name="Includes\System.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="++"/>
+      <fingerprint md5="b5d793aa3b2fefa45038b5ab89d26241"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="x86" enabled="1" default="0">
+      <inputfile value="Server.pb"/>
+      <outputfile value="D3_SMP.x86.exe"/>
+      <compiler version="PureBasic 4.60 Beta 4 (Windows - x86)"/>
+      <executable value="D3_SMP.x86.exe"/>
+      <options unicode="1" xpskin="1" onerror="1"/>
+      <compilecount enable="1" value="217"/>
+      <buildcount enable="1" value="24"/>
+    </target>
+    <target name="x64" enabled="1" default="1">
+      <inputfile value="Server.pb"/>
+      <outputfile value="D3_SMP.x64.exe"/>
+      <compiler version="PureBasic 4.60 Beta 4 (Windows - x64)"/>
+      <executable value="D3_SMP.x64.exe"/>
+      <options unicode="1" xpskin="1" onerror="1"/>
+      <compilecount enable="1" value="1456"/>
+      <buildcount enable="1" value="21"/>
+    </target>
+    <target name="Plugin:Example.x86" enabled="1" default="0">
+      <inputfile value="Plugins\Example\Example.pb"/>
+      <outputfile value="Plugins\Example\Example.x86.dll"/>
+      <compiler version="PureBasic 4.60 Beta 4 (Windows - x86)"/>
+      <executable value="Plugins\Example\Example.x86.dll"/>
+      <options unicode="1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="11"/>
+      <buildcount enable="1" value="11"/>
+    </target>
+    <target name="Plugin:Example.x64" enabled="1" default="0">
+      <inputfile value="Plugins\Example\Example.pb"/>
+      <outputfile value="Plugins\Example\Example.x64.dll"/>
+      <compiler version="PureBasic 4.60 Beta 4 (Windows - x64)"/>
+      <executable value="Plugins\Example\Example.x64.dll"/>
+      <options unicode="1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="26"/>
+      <buildcount enable="1" value="25"/>
+    </target>
+    <target name="Plugin:Lua.x86" enabled="1" default="0">
+      <inputfile value="Plugins\Lua\Lua.pb"/>
+      <outputfile value="Plugins\Lua\Lua.x86.dll"/>
+      <compiler version="PureBasic 4.60 Beta 4 (Windows - x86)"/>
+      <executable value="Plugins\Lua\Lua.x86.dll"/>
+      <options unicode="1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="28"/>
+      <buildcount enable="1" value="24"/>
+    </target>
+    <target name="Plugin:Lua.x64" enabled="1" default="0">
+      <inputfile value="Plugins\Lua\Lua.pb"/>
+      <outputfile value="Plugins\Lua\Lua.x64.dll"/>
+      <compiler version="PureBasic 4.60 Beta 4 (Windows - x64)"/>
+      <executable value="Plugins\Lua\Lua.x64.dll"/>
+      <options unicode="1"/>
+      <format exe="dll" cpu="0"/>
+      <compilecount enable="1" value="103"/>
+      <buildcount enable="1" value="103"/>
+    </target>
+  </section>
+</project>
